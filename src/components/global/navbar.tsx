@@ -21,7 +21,7 @@ const Navbar = (props: Props) => {
       <aside className="flex items-center gap-6">
         <ModeToggle />
         <div className="flex gap-1">
-          <p className="text-3xl font-bold">Fuz</p>
+          <p className="text-3xl font-bold text-white">Fuz</p>
           <Image
             className="shadow-lg"
             src="/fuzzieLogo.png"
@@ -29,10 +29,10 @@ const Navbar = (props: Props) => {
             width={15}
             height={15}
           />
-          <p className="text-3xl font-bold">ie</p>
+          <p className="text-3xl font-bold text-white">ie</p>
         </div>
       </aside>
-      <nav className="absolute top-[50%] left-[50%] border-white p-4 transform translate-x-[-50%] translate-y-[-50%] hidden md:block">
+      <nav className="absolute text-white top-[50%] left-[50%] border-white p-4 transform translate-x-[-50%] translate-y-[-50%] hidden md:block">
         <ul className="flex items-center gap-4">
           <li>
             <Link href={"#"}>Product</Link>
